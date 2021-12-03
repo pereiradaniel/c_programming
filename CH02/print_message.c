@@ -1,6 +1,5 @@
 /* Prints a message to the screen */
 #include <stdio.h>
-
 main()
 {
 	// Print a char variable
