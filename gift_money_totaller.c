@@ -1,10 +1,10 @@
 #include <stdio.h>
 main()
 {
-	// Variables to hold gift prices
+	/* Variables to hold gift prices */
 	float gift1, gift2, gift3, gift4, gift5;
 
-	// Variable to hold total of all gifts
+	/* Variable to hold total of all gifts */
 	float total;
 
 	// Ask for each gift amount:
@@ -24,3 +24,11 @@ main()
 	printf("\nThe total you will be spending on gifts is $%.2f", total);
 	return 0; // End program
 }
+
+/* Comments:
+	This is a multi-line C comment using the original comment specifiers.
+*/
+
+// This is a single-line comment using the C++ style of comment specifier.
+// C compilers from C99 and up will implement this style, but older
+// compilers may not.
