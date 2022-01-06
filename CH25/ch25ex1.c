@@ -6,17 +6,14 @@ main()
     char ans;
 
     // Declare array of 3 chars and initialize
-    char* movies[3] = {"Pale Rider", "High Plains Drifter", "Unforgiven"};
     // The movies array contains POINTERS to strings!!!
-
+    char* movies[3] = {"Pale Rider", "High Plains Drifter", "Unforgiven"};
     int movieratings[3]; // Corresponding array of 3 integers for movie ratings
-
     char* tempmovie = "This will be used to sort rated movies";
     int outer, inner, didSwap, temprating; // for the sort loop
 
     printf("\n\n*** Oscar Season 2021 is here! ***\n\n");
     printf("Time to rate this year's best picture nominees:");
-
     for(i=0;i<3;i++)
     {
         printf("\nDid you see %s? (Y/N):", movies[i]);
@@ -35,7 +32,6 @@ main()
     }
 
     // Sort the movies by rating (unseen will go to bottom)
-
     for(outer=0;outer<2;outer++)
     {
         didSwap = 0;
@@ -60,7 +56,6 @@ main()
 
     // Print the movies you saw in order
     printf("\n\n** Your movie ratings for the Oscar contenders **\n");
-    
     for(i=0;i<ctr;i++)
     {
         printf("%s rated a %d!\n", movies[i], movieratings[i]);
