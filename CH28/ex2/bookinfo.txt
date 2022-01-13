@@ -1,0 +1,12 @@
+
+
+Here is the collection of books: 
+#1: The Hobbit by J.R.R. Tolkien
+It is 350 pages and cost $32.89
+
+#2: DUNE by Frank Herbert
+It is 1500 pages and cost $60.00
+
+#3: Dracula by Bram Stoker
+It is 500 pages and cost $50.00
+
