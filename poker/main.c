@@ -83,7 +83,16 @@ main()
             rank = getRank(finalRank[i]);
             printf("Card #%d: %c%c\n", i+1, rank, suit);
         }
-        
+
+        winnings = analyzeHand(ranksinHand, suitsinHand);
+        printf("You won %d!\n", bet*winnings);
+        bank = bank - bet + (bet*winnings);
+        printf("\nYour bank is now %d.\n", bank);
+        printf("\nDo you want to play again? ", bank);
+        scanf(" %c", &stillPlay);
     } while (toupper(stillPlay) == 'Y');
 
+    return;
 }
+
+/*******************************************************/
