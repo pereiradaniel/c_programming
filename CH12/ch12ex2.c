@@ -11,7 +11,7 @@ main()
 
     if ((name[0] >= 'P')&&(name[0] <= 'S'))
     {
-        printf("You must fo to room 2432");
+        printf("You must go to room 2432");
         printf(" for your tickets\n");
     }
     else
