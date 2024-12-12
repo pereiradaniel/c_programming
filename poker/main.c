@@ -126,6 +126,7 @@ printf("\nFull House\t\t\t8 credits");
 printf("\nFour of a Kind\t\t\t10 credits");
 printf("\nStraight Flush\t\t\t20 credits");
 printf("\n\nHave fun!\n\n");
+}
 
 // Function to deal the first five cards
 
@@ -135,7 +136,6 @@ void getFirstHand(int cardRank[], int cardSuit[]) {
 
     for (i=0; i<5;i++)
     {
-        
+
     }
-}
 }
